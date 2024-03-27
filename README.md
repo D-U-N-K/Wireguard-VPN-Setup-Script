@@ -10,43 +10,52 @@
 '''                                                                                                                 | |                            | |            '''
 '''                                                                                                                 |_|                            |_|            '''
 
+# Wireguard VPN Setup Script
+
+## Description
+
 This bash script automates the setup of a WireGuard VPN server and DNS resolver on Linux systems. It streamlines the installation of WireGuard, dnsmasq, qrencode, and iptables-persistent, and guides users through the configuration process.
 
-Features
-Automated Setup: Easily install and configure WireGuard, dnsmasq, qrencode, and iptables-persistent with a single script.
-Firewall Management: Open firewall ports to enable VPN traffic, ensuring secure communication.
-Peer Configuration: Generate peer configurations and QR codes for easy client setup.
-User-Friendly: Intuitive prompts and instructions make setup quick and straightforward.
-Efficient: Script handles package manager detection, IP forwarding, interface detection, and more.
-Usage
-Clone the repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/your-username/wireguard-vpn-setup.git
-Navigate to the repository directory:
+- **Automated Setup:** Easily install and configure WireGuard, dnsmasq, qrencode, and iptables-persistent with a single script.
+- **Firewall Management:** Open firewall ports to enable VPN traffic, ensuring secure communication.
+- **Peer Configuration:** Generate peer configurations and QR codes for easy client setup.
+- **User-Friendly:** Intuitive prompts and instructions make setup quick and straightforward.
+- **Efficient:** Script handles package manager detection, IP forwarding, interface detection, and more.
 
-bash
-Copy code
+## Usage
+
+### Clone Repository
+
+\`\`\`bash
+git clone https://github.com/D-U-N-K/wireguard-vpn-setup.git
 cd wireguard-vpn-setup
-Make the script executable:
+\`\`\`
 
-bash
-Copy code
+### Make Script Executable
+
+\`\`\`bash
 chmod +x setup_wireguard_vpn.sh
-Run the script:
+\`\`\`
 
-bash
-Copy code
+### Run the Script
+
+\`\`\`bash
 ./setup_wireguard_vpn.sh
+\`\`\`
+
 Follow the prompts to configure your WireGuard VPN server and generate peer configurations.
 
-Requirements
-Linux operating system (Ubuntu, CentOS, etc.)
-Bash shell
-Superuser privileges (sudo)
-License
+## Requirements
+
+- Linux operating system (Ubuntu, CentOS, etc.)
+- Bash shell
+- Superuser privileges (sudo)
+
+## License
+
 This project is licensed under the MIT License, allowing for unrestricted use, modification, and distribution.
 
-Contributions
-Contributions are welcome! Feel free to submit issues or pull requests to improve the script.
+
+
