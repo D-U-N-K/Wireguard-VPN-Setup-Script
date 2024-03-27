@@ -29,7 +29,7 @@ This bash script automates the setup of a WireGuard VPN server and DNS resolver 
 ### Clone Repository
 
 \`\`\`bash
-git clone https://github.com/D-U-N-K/wireguard-vpn-setup.git
+git clone [https://github.com/D-U-N-K/wireguard-vpn-setup.git](https://github.com/D-U-N-K/Wireguard-VPN-Setup-Script)
 cd wireguard-vpn-setup
 \`\`\`
 
